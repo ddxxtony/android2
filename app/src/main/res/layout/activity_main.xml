@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="8dp"
+        android:fillViewport="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                android:text="Formulario de registro"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:textColor="@android:color/black"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:textColorLink="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Age"
+                android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:background="@drawable/border"
+                android:inputType="textPersonName"
+                android:textColorLink="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/tvPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Position"
+                android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/ediastTexast4"
+                android:layout_width="fill_parent"
+                android:textColor="@android:color/black"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:background="@drawable/border"
+                android:inputType="textPersonName"
+                android:textColorLink="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/tvTurn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Turn"
+                android:textColor="@android:color/black" />
+            <EditText
+                android:id="@+id/ediastTexassdft4"
+                android:layout_width="fill_parent"
+                android:textColor="@android:color/black"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:background="@drawable/border"
+                android:inputType="textPersonName"
+                android:textColorLink="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/btSave"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Guardar" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.v7.widget.LinearLayoutCompat>
